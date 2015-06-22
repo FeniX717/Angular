@@ -7,3 +7,6 @@ addons:
     repo_token: d8a6coneZxjp6bhbUxsJ
 after_script:
   - codeclimate < lcov.info
+before_script:
+  - 'npm install -g bower grunt-cli'
+  - 'bower install'
