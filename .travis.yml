@@ -1,13 +1,7 @@
 sudo: false
 language: node_js
 node_js:
-  - 'iojs'
-  - '0.12'
-  - '0.10'
-
-before_script:
-  - 'npm install -g bower grunt-cli'
-  - 'bower install'
+  - '0.12.1'
 addons:
   code_climate:
     repo_token: d8a6coneZxjp6bhbUxsJ
